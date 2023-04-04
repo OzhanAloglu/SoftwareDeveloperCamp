@@ -44,7 +44,7 @@ namespace Business.Concrete
             //Yetkisi var mı?
             //Böyle kodlar buraya yazılır.
 
-            if (DateTime.Now.Hour==22)
+            if (DateTime.Now.Hour==04)
             {
                 return new ErrorDataResult<List<Product>>(Messages.MaintenanceTime);
             }
